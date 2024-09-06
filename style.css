@@ -1,0 +1,35 @@
+*{
+    margin:0;
+    padding: 0;
+    text-align: center;
+}
+.content{
+    display: flex;
+    flex-direction:row;
+    width: 100%;
+    background-color: rgb(146, 146, 146);
+    margin: 0 auto;
+    padding: 0 2%;
+    align-items: center;
+}
+.box{
+    margin: 10px auto ; 
+    align-items: center;
+}
+.box span{
+    background-color: brown;
+    width: 100%;
+}
+
+.box-text{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    background-color: aquamarine;
+    margin: 0;
+    padding: 0 2%;
+
+}
+.box-content{
+    width: 50%;
+}
